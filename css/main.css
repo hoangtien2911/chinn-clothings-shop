@@ -8,7 +8,7 @@
 
 body {
     font-family: var(--sm-font);
-    margin: 0;
+    margin: 0;    
 }
 
 
@@ -229,6 +229,57 @@ footer .brand {
 .form-hidden {    
     display: none;
 }
+
+/* Cart */
+#cart-container table thead td {
+    background-color: var(--pink);
+    color: #fff;
+    border: none;
+    padding: 10px;
+}
+
+#cart-container table thead {
+    border: 1px solid var(--pink);
+}
+
+#cart-container table td {
+    border: 1px solid var(--pink);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px 5px;
+}
+
+td img {
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+}
+
+td input {
+    width: 50px;
+    height: 30px;
+    padding: 5px;
+}
+
+.total-price {
+    width: 30%;    
+}
+
+.total-price table td {
+    border: none !important;
+}
+
+.total-price table {
+    border-top: 3px solid var(--pink);
+
+}
+
 
 /* Media queries */
 

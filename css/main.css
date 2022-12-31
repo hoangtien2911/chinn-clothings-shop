@@ -268,7 +268,8 @@ td input {
 }
 
 .total-price {
-    width: 30%;    
+    width: 25%;    
+    margin-left: 75%;
 }
 
 .total-price table td {
@@ -279,6 +280,26 @@ td input {
     border-top: 3px solid var(--pink);
 
 }
+
+/* Product detail */
+.product select{
+    display: block;
+    padding: 5px 10px;
+}
+
+.product input {
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
 
 
 /* Media queries */
